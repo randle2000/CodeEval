@@ -22,7 +22,7 @@ public class Main {
             long originalNum = Integer.parseInt(ln);
             int count = 0;
             long reversedNum = reverseNumber(originalNum);
-            while (originalNum != reversedNum) {        // repeat until reversed number is not a palindrome
+            while (originalNum != reversedNum) {        // repeat until number becomes a palindrome
                 originalNum += reversedNum;
                 count++;
                 reversedNum = reverseNumber(originalNum);
